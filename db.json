@@ -1,0 +1,92 @@
+{
+  "books": [
+    { "id": 1, 
+      "title": "AI in WEB",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+    },
+	  { "id": 2, 
+      "title": "AI in WEB2",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal2",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+    },
+    { "id": 3, 
+      "title": "AI in WEB3",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal3",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+    },
+    { "id": 4, 
+      "title": "AI in WEB4",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal4",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+    },
+    { "id": 5, 
+      "title": "AI in WEB5",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal5",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+    },
+    { "id": 6, 
+      "title": "AI in WEB6",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal6",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+    },
+    { "id": 7, 
+      "title": "AI in WEB7",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal7",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+    },
+    { "id": 8, 
+      "title": "AI in WEB8",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal8",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+    },
+    { "id": 9, 
+      "title": "AI in WEB9",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal9",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+    },
+
+    { "id": 10, 
+      "title": "AI in WEB10",
+      "description":"Lorem this is a book description of AI in Web",
+      "author": "Mrinal10",
+      "price": "1999",
+      "page_count": "199",
+      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+    }
+
+    
+
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 }
+  ],
+  "profile": { "name": "typicode" }
+}
