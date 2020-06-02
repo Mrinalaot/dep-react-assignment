@@ -1,0 +1,28 @@
+.card-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 10px;
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-box{
+    height: auto;
+    width: 150px;
+}
+
+.img-box img{
+    max-width: 100%;
+    height: auto;
+}
+
+.book-details{
+    margin-left: 20px;
+    padding: 10px;
+}

@@ -1,4 +1,4 @@
-### Book Store
+## Book Store (Ecommerce) - React App
 
 ## Available Scripts
 

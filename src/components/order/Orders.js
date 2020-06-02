@@ -1,15 +1,45 @@
-import React, { Component } from 'react'
-import Header from '../shared/Header'
+import React, {
+  Component,
+} from "react";
+import Header from "../shared/Header";
+import axios from "axios";
+import { ORDER_URL } from "../../constants";
+import SingleOrder from "./SingleOrder";
 
 export class Orders extends Component {
-    render() {
-        return (
-            <div>
-                <Header display="Orders"/>
-                <h3>THis is Order page</h3>
-            </div>
-        )
-    }
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      orderlist: [],
+    };
+  }
+
+  componentDidMount() {
+    axios
+      .get(ORDER_URL)
+      .then((res) => {
+        const orderlist = res.data;
+        this.setState({ orderlist });
+        console.log(
+          this.state.orderlist
+        );
+      })
+      .catch((err) => console.log(err));
+  }
+
+  render() {
+    return (
+      <div>
+        <Header display="Orders" />
+        {this.state.orderlist.map(
+          (order, index) => 
+            <SingleOrder key={index} items={order.items} status={order.status} orderDate={order.order_date}></SingleOrder>
+        )}
+      </div>
+    );
+  }
 }
 
-export default Orders
+
+export default Orders;

@@ -81,12 +81,56 @@
       "page_count": "199",
       "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
     }
-
-    
-
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+
+  "orders": [
+    { "id": 1,
+      "items": [
+        { "id": 1, 
+          "title": "AI in WEB",
+          "description":"Lorem this is a book description of AI in Web",
+          "author": "Mrinal",
+          "price": "1999",
+          "page_count": "199",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg",
+          "quantity":2
+        }
+      ],
+      "order_date": "2019-11-14",
+      "status": "delivered"
+    },
+    { "id": 2,
+      "items": [
+        { "id": 5, 
+          "title": "AI in WEB5",
+          "description":"Lorem this is a book description of AI in Web",
+          "author": "Mrinal5",
+          "price": "1999",
+          "page_count": "199",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg",
+          "quantity":1
+        },
+        {
+          "id": 9, 
+          "title": "AI in WEB9",
+          "description":"Lorem this is a book description of AI in Web",
+          "author": "Mrinal9",
+          "price": "1999",
+          "page_count": "199",
+          "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg",
+          "quantity":1
+        }
+      ],
+      "order_date": "2019-11-28",
+      "status": "processing"
+    }
   ],
-  "profile": { "name": "typicode" }
+
+  "address": 
+  { 
+    "address_line1": "vill, post - Barhra, Birbhum",
+    "address_line2": "West Bengal",
+    "pincode": 731125,
+    "landmark": "Barhra Tarun Sangha Club"
+  }
 }
