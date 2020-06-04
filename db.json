@@ -1,136 +1,150 @@
 {
   "books": [
-    { "id": 1, 
+    {
+      "id": 1,
       "title": "AI in WEB",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal",
       "price": "1999",
       "page_count": "199",
       "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
     },
-	  { "id": 2, 
-      "title": "AI in WEB2",
-      "description":"Lorem this is a book description of AI in Web",
-      "author": "Mrinal2",
+    {
+      "id": 2,
+      "title": "THIRD EYE YOGA",
+      "description": "What is the technique of vision without the aid of the eyes? With this phenomenon, the essence of the matter, as I said, is not in the irritation of the optic nerve. There is another point, the irritation of which is crucial for evoking perceptions of visions. My teacher at spruce did not encourage me to continue to concentrate my thoughts in heaven, in which I practiced for a long time before I received his final instructions",
+      "author": "Debottam",
+      "price": "204",
+      "page_count": "298",
+      "image": "https://m.media-amazon.com/images/I/91NsXMPjY6L._AC_UY218_.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Basic Computation and Programming with C",
+      "description": "Providing in-depth coverage, this book covers the fundamentals of computation and programming in C language. Essential concepts including operators and expressions, input and output statements, loop statements, arrays, pointers, functions, strings and preprocessors are described in a lucid manner. A unique approach - 'Learn by quiz",
+      "author": "Subhodip Mukherje",
       "price": "1999",
       "page_count": "199",
-      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+      "image": "https://m.media-amazon.com/images/I/51C2YyW3TWL._AC_UY218_.jpg"
     },
-    { "id": 3, 
-      "title": "AI in WEB3",
-      "description":"Lorem this is a book description of AI in Web",
-      "author": "Mrinal3",
-      "price": "1999",
-      "page_count": "199",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+    {
+      "id": 4,
+      "title": "Life is a Mitry",
+      "description": "Lorem this is a book description of AI in Web",
+      "author": "Arunima",
+      "price": "2009",
+      "page_count": "500",
+      "image": "https://m.media-amazon.com/images/I/51yzvmRg+OL._AC_UY218_.jpg"
     },
-    { "id": 4, 
-      "title": "AI in WEB4",
-      "description":"Lorem this is a book description of AI in Web",
-      "author": "Mrinal4",
-      "price": "1999",
-      "page_count": "199",
-      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
-    },
-    { "id": 5, 
+    {
+      "id": 5,
       "title": "AI in WEB5",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal5",
       "price": "1999",
       "page_count": "199",
-      "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
+      "image": "https://m.media-amazon.com/images/I/81pgYscxh-L._AC_UY218_.jpg"
     },
-    { "id": 6, 
+    {
+      "id": 6,
       "title": "AI in WEB6",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal6",
       "price": "1999",
       "page_count": "199",
-      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+      "image": "https://m.media-amazon.com/images/I/715YmItVLqL._AC_UY218_.jpg"
     },
-    { "id": 7, 
+    {
+      "id": 7,
       "title": "AI in WEB7",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal7",
       "price": "1999",
       "page_count": "199",
       "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
     },
-    { "id": 8, 
+    {
+      "id": 8,
       "title": "AI in WEB8",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal8",
       "price": "1999",
       "page_count": "199",
-      "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
+      "image": "https://m.media-amazon.com/images/I/81TVotMHgoL._AC_UY218_.jpg"
     },
-    { "id": 9, 
+    {
+      "id": 9,
       "title": "AI in WEB9",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal9",
       "price": "1999",
       "page_count": "199",
       "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg"
     },
-
-    { "id": 10, 
+    {
+      "id": 10,
       "title": "AI in WEB10",
-      "description":"Lorem this is a book description of AI in Web",
+      "description": "Lorem this is a book description of AI in Web",
       "author": "Mrinal10",
       "price": "1999",
       "page_count": "199",
       "image": "https://m.media-amazon.com/images/I/51D9Yftzl+L._SX260_.jpg"
     }
   ],
-
   "orders": [
-    { "id": 1,
+    {
+      "id": 1,
       "items": [
-        { "id": 1, 
+        {
+          "id": 1,
           "title": "AI in WEB",
-          "description":"Lorem this is a book description of AI in Web",
+          "description": "Lorem this is a book description of AI in Web",
           "author": "Mrinal",
           "price": "1999",
           "page_count": "199",
           "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg",
-          "quantity":2
+          "quantity": 2
         }
       ],
       "order_date": "2019-11-14",
       "status": "delivered"
     },
-    { "id": 2,
+    {
+      "id": 2,
       "items": [
-        { "id": 5, 
+        {
+          "id": 5,
           "title": "AI in WEB5",
-          "description":"Lorem this is a book description of AI in Web",
+          "description": "Lorem this is a book description of AI in Web",
           "author": "Mrinal5",
           "price": "1999",
           "page_count": "199",
           "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg",
-          "quantity":1
+          "quantity": 1
         },
         {
-          "id": 9, 
+          "id": 9,
           "title": "AI in WEB9",
-          "description":"Lorem this is a book description of AI in Web",
+          "description": "Lorem this is a book description of AI in Web",
           "author": "Mrinal9",
           "price": "1999",
           "page_count": "199",
           "image": "https://images-na.ssl-images-amazon.com/images/I/512-SJSg4XL._SX404_BO1,204,203,200_.jpg",
-          "quantity":1
+          "quantity": 1
         }
       ],
       "order_date": "2019-11-28",
       "status": "processing"
     }
   ],
-
-  "address": 
-  { 
-    "address_line1": "vill, post - Barhra, Birbhum",
-    "address_line2": "West Bengal",
-    "pincode": 731125,
-    "landmark": "Barhra Tarun Sangha Club"
+  "address": {
+    "address_line1": "Barhra Kamarshal More, Barhra",
+    "address_line2": "Dubrajpur",
+    "pincode": "731125",
+    "landmark": "Kamarshal"
+  },
+  "cart": {
+    "book_id": 3,
+    "quantity": 1
   }
 }

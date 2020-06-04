@@ -1,7 +1,26 @@
 import React, { Component } from 'react'
 import './Home.css';
 import {Link} from 'react-router-dom'
+import axios from 'axios';
+import { CART_URL } from '../../constants';
 class Book extends Component {
+    constructor(props) {
+        super(props);
+        this.handleAddtoCart = this.handleAddtoCart.bind(this);
+    }
+
+    handleAddtoCart(id) {
+        axios.post(CART_URL, {
+            book_id: id,
+            quantity: 1
+        })
+        .then(res => {
+        alert("Book is added to Cart... goto Cart!");
+    })
+    .catch((err)=> console.log(err))
+        
+    }
+    
     render() {
         const { id, title, description, image } = this.props;
         return (
@@ -12,7 +31,7 @@ class Book extends Component {
                                     <Link to={`/book/${id}`}>{title}</Link>
                                 </h5>
                                 <p className="card-text">{`${description}`.substring(0,35).concat(' ...')}</p>
-                                <a href="#" className="btn btn-primary">Add to cart</a>
+                                <button className="btn btn-primary" onClick={() => this.handleAddtoCart(id)}>Add to cart</button>
                             </div>
                     </div>
         )

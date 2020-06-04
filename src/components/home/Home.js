@@ -36,7 +36,6 @@ class Home extends Component {
                             (book, index) => <Book key={index} id={book.id}  title={book.title} description={book.description} image={book.image} /> 
                         )
                     }
-                   
                 </div>
             </div>
         )

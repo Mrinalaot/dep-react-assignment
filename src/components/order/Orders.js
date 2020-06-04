@@ -32,10 +32,12 @@ export class Orders extends Component {
     return (
       <div>
         <Header display="Orders" />
-        {this.state.orderlist.map(
-          (order, index) => 
-            <SingleOrder key={index} items={order.items} status={order.status} orderDate={order.order_date}></SingleOrder>
-        )}
+          <div className="container">
+            {this.state.orderlist.map(
+              (order, index) => 
+                <SingleOrder key={index} items={order.items} status={order.status} orderDate={order.order_date}></SingleOrder>
+            )}
+          </div>
       </div>
     );
   }

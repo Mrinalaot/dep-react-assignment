@@ -7,7 +7,12 @@ class Address extends Component {
         super(props)
     
         this.state = {
-            address: {},
+            address: {
+                address_line1 : "",
+                address_line2 : "",
+                pincode : -999,
+                landmark : ""
+            },
             formDisable: "disabled"
         }
         this.handleEditAddress = this.handleEditAddress.bind(this);
@@ -20,28 +25,36 @@ class Address extends Component {
         .then(res => {
             const address = res.data;
             this.setState({ address });
-            console.log(this.state.address);
         })
         .catch((err)=> console.log(err))
     }
 
     handleChange = (event) =>{
-        // const {name, value} = event.target;
-        
-        // this.setState(prevState => {
-        //     //console.log(prevState.address, event.target.name);
-        //     //console.log(name, value);
-        //      ...prevState.address,
-        //      prevState[name] : value                           
-        //   })
-        //   console.log(this.state.address);
+         const {name, value} = event.target;
+         this.setState(prevState => {
+            return {
+                address: {
+                    ...prevState.address,
+                    [name]: value
+                }
+            }
+        })
           
     }
 
     handleSubmit = event => {
-        alert(this.state.address);
         event.preventDefault();
-      }
+        const data = this.state.address;
+        //Disabling the form again
+        this.setState({
+            formDisable: "disabled"
+        });
+        // Saving new address to db
+        axios
+        .post(ADDRESS_URL, data)
+        .then(res => console.log(res))
+        .catch(err => console.log(err));
+    }
 
     handleEditAddress(){
         this.setState({
